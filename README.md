@@ -5,7 +5,8 @@ This is a small sample that would help you create an exe from java jar file.
 
 ececute.nsi
 -----------
-execute.nsi script is for executing the jar file. \nIt also finds the installed JRE and executes the runnable jar file
+execute.nsi script is for executing the jar file. 
+It also finds the installed JRE and executes the runnable jar file
 <code> java -jar <jarfilename.jar> </code>
 
 Installer.nsi
