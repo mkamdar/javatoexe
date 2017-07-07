@@ -2,9 +2,9 @@
 ;--------------
 ;!include "MUI2.nsh"
 !include "${NSISDIR}\Contrib\Modern UI\System.nsh"
-;!define MUI_ICON "G:\logo_revenue.ico"
+;!define MUI_ICON "G:\logo.ico"
 ;!define MUI_HEADERIMAGE
-;!define MUI_HEADERIMAGE_BITMAP "G:\logo_revenue_big.bmp"
+;!define MUI_HEADERIMAGE_BITMAP "G:\logo_big.bmp"
 ;!define MUI_HEADERIMAGE_RIGHT
 ;You want to change the next two lines too
 ;!define CLASSPATH ".;lib;C:\XMLDownloadUtil.jar"
