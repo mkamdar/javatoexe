@@ -14,7 +14,7 @@ It also finds the installed JRE and executes the runnable jar file
 Installer.nsi creates installer and uninstaller.
 
 
-Getting started:
+# Getting started:
 
 1. Install NSIS (Nullsoft Scriptable Install System) 
    Download: http://nsis.sourceforge.net/Download
