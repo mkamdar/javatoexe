@@ -3,7 +3,7 @@ Creating exe from java
 
 This is a small sample that would help you create an exe from java jar file.
 
-ececute.nsi
+execute.nsi
 -----------
 execute.nsi script is for executing the jar file. 
 It also finds the installed JRE and executes the runnable jar file
