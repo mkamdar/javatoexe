@@ -1,10 +1,3 @@
-; Turn off old selected section
-; 12 06 2005: Luis Wong
-; Template voor het genereren van een installer.
-; speciaal voor het genereren van EasyPlayer installers.
-; Trimedia Interactive Projects
- 
- 
 ; -------------------------------
 ; Start
  
