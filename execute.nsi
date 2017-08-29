@@ -2,20 +2,17 @@
 ;--------------
 ;!include "MUI2.nsh"
 !include "${NSISDIR}\Contrib\Modern UI\System.nsh"
-;!define MUI_ICON "G:\CONTAX\CIF\Mufaddal\logo_revenue.ico"
 ;!define MUI_HEADERIMAGE
-;!define MUI_HEADERIMAGE_BITMAP "G:\CONTAX\CIF\Mufaddal\logo_revenue_big.bmp"
 ;!define MUI_HEADERIMAGE_RIGHT
 ;You want to change the next two lines too
-;!define CLASSPATH ".;lib;C:\Mufaddal\WorkItems\ITSPAYEE\XMLDownloadUtil.jar"
-!define CLASSPATH ".;lib;${INSTDIR}\Revenue\XMLDownloadUtil\XMLDownloadUtil.jar"
+;!define CLASSPATH ".;lib;C:\Mufaddal\WorkItems\\XMLDownloadUtil.jar"
+!define CLASSPATH ".;lib;${INSTDIR}\XMLDownloadUtil\XMLDownloadUtil.jar"
 !define MUI_PRODUCT "Xml Downloader Ver. 1.0"
-;!define CLASS "ie.revenue.its.gui.ITSGui"
 !define INSTDIR "$PROGRAMFILES\${MUI_PRODUCT}"
 ;You want to change the next four lines
-Name "Payee XMl file Utility"
-Caption "Payee XMl file Utility"
-;Icon "logo_revenue_big.jpeg"
+Name " XMl file Utility"
+Caption " XMl file Utility"
+
 OutFile "run.exe"
  
 SilentInstall silent
@@ -26,18 +23,18 @@ ShowInstDetails nevershow
 Section ""
   Call GetJRE
   
-  ;IfFileExists "${INSTDIR}\Revenue\XMLDownloadUtil\XMLDownloadUtil.jar" file_found file_not_found
+  ;IfFileExists "${INSTDIR}\XMLDownloadUtil\XMLDownloadUtil.jar" file_found file_not_found
   ;file_found:
     ;MessageBox MB_OK "XmlDownloadutil Already installed"
     ;goto execute_WithOut_Copy
   
   ;file_not_found:
-    ;SetOutPath "${INSTDIR}\Revenue\XMLDownloadUtil\lib"
+    ;SetOutPath "${INSTDIR}\XMLDownloadUtil\lib"
     ;File "G:\CONTAX\CIF\Mufaddal\XMLDownloadUtil.jar"
-    ;SetOutPath "${INSTDIR}\Revenue\XMLDownloadUtil\bin"
+    ;SetOutPath "${INSTDIR}\XMLDownloadUtil\bin"
     ;File "G:\CONTAX\CIF\Mufaddal\XMLDownloadUtil.exe"
     ;File "G:\CONTAX\CIF\Mufaddal\Run.bat"
-    ;SetOutPath "${INSTDIR}\Revenue\XMLDownloadUtil\"
+    ;SetOutPath "${INSTDIR}\XMLDownloadUtil\"
     ;File "G:\CONTAX\CIF\Mufaddal\logo_revenue_big.bmp"
     ;MessageBox MB_OK "XmlDownloadutil installation finished"
 
