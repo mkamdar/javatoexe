@@ -1,18 +1,12 @@
-; Turn off old selected section
-; 12 06 2005: Luis Wong
-; Template voor het genereren van een installer.
-; speciaal voor het genereren van EasyPlayer installers.
-; Trimedia Interactive Projects
- 
- 
+
 ; -------------------------------
 ; Start
  
  
-  !define MUI_PRODUCT "Xml Downloader Ver. 1.0"
+  !define MUI_PRODUCT "Xml Downloader Ver. 1.1"
   !define MUI_FILE "run"
   !define MUI_VERSION ""
-  !define MUI_BRANDINGTEXT "Revenue Xml Download Ver. 1.0"
+  !define MUI_BRANDINGTEXT "Xml Download Ver. 1.1"
   CRCCheck On
  
   ; Bij deze moeten we waarschijnlijk een absoluut pad gaan gebruiken
@@ -79,6 +73,7 @@ Section "install"
  
   File "${MUI_FILE}.exe"
   file "G:\CONTAX\CIF\Mufaddal\XMLDownloadUtil\${MUI_PRODUCT}\Run.bat"
+  file "G:\CONTAX\CIF\Mufaddal\XMLDownloadUtil\${MUI_PRODUCT}\config.properties"
   ;File "${MUI_FILE}.ini"
   ;File "Lees_mij.txt"
   SetOutPath "$INSTDIR\lib"
