@@ -7,7 +7,7 @@
 ;You want to change the next two lines too
 ;!define CLASSPATH ".;lib;C:\Mufaddal\WorkItems\\XMLDownloadUtil.jar"
 !define CLASSPATH ".;lib;${INSTDIR}\XMLDownloadUtil\XMLDownloadUtil.jar"
-!define MUI_PRODUCT "Xml Downloader Ver. 1.0"
+!define MUI_PRODUCT "Xml Downloader Ver. 1.1"
 !define INSTDIR "$PROGRAMFILES\${MUI_PRODUCT}"
 ;You want to change the next four lines
 Name " XMl file Utility"
