@@ -18,5 +18,5 @@ Installer.nsi creates installer and uninstaller.
 
 1. Install NSIS (Nullsoft Scriptable Install System) 
    Download: http://nsis.sourceforge.net/Download
-2. Modify the scripts to match you emvironments(Filepaths, jarfilenames etc)
+2. Modify the scripts to match you environments(Filepaths, jarfilenames etc)
 3. compile the scripts using nsis compiler
